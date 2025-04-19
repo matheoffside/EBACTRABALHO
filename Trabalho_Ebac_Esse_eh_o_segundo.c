@@ -86,12 +86,12 @@ setlocale(LC_ALL, "portuguese");
                     
                     if(file == NULL)
                     {
-                    	printf("Arquivo n„o localizado");
+                    	printf("Arquivo n√£o localizado");
 					}
 
                     while(fgets(conteudo, 200, file) !=NULL)
                     {
-                    	      printf("\nEssas s„o as informaÁıes do usuario: ");
+                    	      printf("\nEssas s√£o as informa√ß√µes do usuario: ");
                     	      printf("%s", conteudo);
                          	  printf("\n\n");
 					}
@@ -116,7 +116,7 @@ int deletar()
                   
                   if(file == NULL)
                   {
-                  	     printf("Esse usuario n„o se encontra no sistema!");
+                  	     printf("Esse usuario n√£o se encontra no sistema!");
                   	     system("pause");
                   	     
 				  }
@@ -144,7 +144,7 @@ int main()
 	                     printf("(2) Consultar nomes\n");
 	                     printf("(3) Deletar nomes\n");
 	                     printf("(4) Sair do sistema\n\n");
-	                     printf("Por favor escolha uma opÁ„o acima: ");
+	                     printf("Por favor escolha uma op√ß√£o acima: ");
 	                     scanf("%d", &opcao);
 	                     
 	                     switch(opcao)
@@ -168,7 +168,7 @@ int main()
                         	break;
                         	
 	                     	default:
-	                     	printf("Essa opÁ„o n„o est· disponivel!");
+	                     	printf("Essa op√ß√£o n√£o est√° disponivel!");
 	                     	break;
 	                     	
 	                     	
